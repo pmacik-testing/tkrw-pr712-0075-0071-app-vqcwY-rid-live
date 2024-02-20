@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-nmrl
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0071-tenant/tkrw-pr712-0075-0071-app/devfile-sample-nmrl@sha256:b91029c1c5c0c3dc3bb76e16d3f99eca2e0c4d1a846dea60a6f8efab1b6b4202
         name: my-nodejs
         ports:
         - containerPort: 3001
